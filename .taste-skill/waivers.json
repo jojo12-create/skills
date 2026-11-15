@@ -1,0 +1,4 @@
+[
+  { "check": "copy-headings", "target": "h2#prestations-h", "reason": "Page en français : « prestations » (services) et « devis » (quote) sont les noms de section ; le contrôle ne lit que l'anglais." },
+  { "check": "cut-text", "target": "dg-node--step", "reason": "Légendes du schéma timeline du kit : placées hors de la pastille par diagram.css, rien n'est coupé à l'écran (vérifié en capture)." }
+]

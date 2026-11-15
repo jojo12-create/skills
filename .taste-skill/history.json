@@ -1,0 +1,44 @@
+{
+ "palettes": [
+  "white-signal-red"
+ ],
+ "types": [
+  "red-hat"
+ ],
+ "dealt": [
+  "red-hat",
+  "zilla",
+  "newsreader"
+ ],
+ "moments": [
+  {
+   "id": "word-highlight",
+   "at": "2026-11-15T22:41:42.376Z",
+   "seed": "43e0ba36"
+  }
+ ],
+ "photos": [
+  {
+   "trade": "studio",
+   "draft": true,
+   "lead": "c734",
+   "ids": [
+    "c734",
+    "d88",
+    "c823",
+    "c826"
+   ],
+   "sections": [
+    "hero",
+    "services",
+    "work",
+    "work",
+    "steps",
+    "steps",
+    "close"
+   ],
+   "seed": "2e081y",
+   "at": "2026-11-15T22:42:10.901Z"
+  }
+ ]
+}

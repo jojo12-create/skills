@@ -1,0 +1,30 @@
+/* CSS propre au site : uniquement ce que le kit (system.css) n'a pas. */
+
+/* Le formulaire de devis sur la surface alternée, 48px de marge intérieure (sections-library.md, booking-form). */
+.form-card { background: var(--surface); border-radius: var(--r-lg); padding: var(--s-8); }
+@media (max-width: 639px) { .form-card { padding: var(--s-5); } }
+
+/* Les deux photos de l'atelier : côte à côte à toutes les largeurs, une seule hauteur. */
+.pair { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.pair > .frame { grid-column: auto; height: 440px; }
+@media (max-width: 1023px) { .pair > .frame { height: auto; aspect-ratio: 4 / 5; } }
+@media (max-width: 639px) { .pair { grid-template-columns: minmax(0, 1fr); } .pair > .frame { aspect-ratio: 16 / 10; } }
+
+/* La page des crédits photo. */
+.credits-page { padding: var(--s-9) 0; }
+.credits-page h1 { font-size: var(--t-h2); }
+
+/* Le formulaire sur une colonne : un champ par ligne. */
+.form-card .form { grid-template-columns: minmax(0, 1fr); }
+
+/* Devis. Sous 1280px : la carte du formulaire resserre sa marge.
+   Tablette : la section tient sur un écran, le schéma des étapes plus bas.
+   Téléphone : deux écrans, le texte et les étapes sur le premier, le formulaire sur le second (.g2m). */
+@media (max-width: 1279px) { .form-card { padding: var(--s-7); } }
+#devis .steps-panel { --p-h: 260px; margin-top: var(--s-5); background: var(--surface); }
+@media (min-width: 640px) and (max-width: 1023px) {
+  #devis .steps-panel { --p-h: 200px; }
+  #devis .form-card { background: none; padding: 0; border-radius: 0; }
+  #devis .form-card .form { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 639px) { #devis .wrap > .grid { display: contents; } }

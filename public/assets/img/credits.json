@@ -1,0 +1,60 @@
+{
+ "note": "Credits for the photographs in this folder: photos.mjs credits prints the footer block for the ones the pages use.",
+ "photos": [
+  {
+   "file": "photo-m19113721-1800.webp",
+   "files": [
+    "photo-m19113721-1200.webp",
+    "photo-m19113721-1800.webp",
+    "photo-m19113721-2400.webp",
+    "photo-m19113721-780x975.webp"
+   ],
+   "id": "m19113721",
+   "alt": "A smith's forearm and hand holding a hammer and tongs over a glowing bar of iron on an anvil in a cobbled yard",
+   "by": "Jorge Royan",
+   "licence": "CC BY-SA 3.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Vintage_smith%27s_workshop_-_0169.jpg",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "file": "photo-m19113729-1200.webp",
+   "files": [
+    "photo-m19113729-1200.webp"
+   ],
+   "id": "m19113729",
+   "alt": "A smith's forearms swing a hammer onto a glowing bar held with tongs on an anvil, a cartwheel against a stone wall behind",
+   "by": "Jorge Royan",
+   "licence": "CC BY-SA 3.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Vintage_smith%27s_workshop_-_0180.jpg",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "file": "photo-m94781083-1200.webp",
+   "files": [
+    "photo-m94781083-1200.webp"
+   ],
+   "id": "m94781083",
+   "alt": "A hand holding forge tongs over a freshly forged disc and rivet on a rusted anvil face scattered with scale",
+   "by": "Kritzolina",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Newly_made_nail_01.jpg",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "file": "photo-m130857602-1200.webp",
+   "files": [
+    "photo-m130857602-1200.webp"
+   ],
+   "id": "m130857602",
+   "alt": "A heavy anvil wrapped in a chain on an oak block in a brick-floored forge, hammers and tongs racked on the wall behind and a patch of sun on the floor",
+   "by": "Kleseus",
+   "licence": "CC0",
+   "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Anvil,_northern_German_type_with_upsetting_block.jpg",
+   "source": "Wikimedia Commons"
+  }
+ ]
+}

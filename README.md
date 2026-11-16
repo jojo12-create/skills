@@ -1,4 +1,11 @@
-# Model_site : gabarit de site vitrine
+# skills
+
+**Skills de design pour Claude Code** : voir [`skills/`](skills/) (22 skills : Emil Kowalski, Impeccable, Taste Skill), avec leur origine et leurs licences dans [`skills/README.md`](skills/README.md).
+Pour les utiliser dans un projet : copier les dossiers voulus dans `.claude/skills/` du projet, ou dans `~/.claude/skills/` pour tous les projets.
+
+---
+
+## Gabarit de site vitrine (Next.js)
 
 Gabarit de site vitrine réutilisable (Next.js, export statique), pour des entreprises de tous secteurs.
 Le contenu livré est une **démonstration** : « Atelier Vercane », un atelier de ferronnerie fictif à Lyon.
@@ -44,7 +51,7 @@ Les composants (`components/sections.tsx`) ne contiennent aucun texte propre au 
 
 ## Comment c'est construit
 
-- **Design** : skills `design-taste-frontend`, `impeccable` et `emil-design-eng` dans `.claude/skills/`.
+- **Design** : skills `design-taste-frontend`, `impeccable` et `emil-design-eng` dans [`skills/`](skills/) (à copier dans `.claude/skills/` pour les activer).
   `PRODUCT.md` décrit le produit pour ces skills.
 - **Kit** : `public/assets/` contient le système (grille, typographie, boutons, animations) copié depuis
   `design-taste-frontend`. Ne pas modifier ces fichiers ; le CSS propre au site est dans `public/assets/site.css`.

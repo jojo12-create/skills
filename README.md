@@ -1,6 +1,6 @@
 # skills
 
-**Skills de design pour Claude Code** : voir [`skills/`](skills/) (22 skills : Emil Kowalski, Impeccable, Taste Skill), avec leur origine et leurs licences dans [`skills/README.md`](skills/README.md).
+**Skills de design pour Claude Code** : voir [`skills/`](skills/) (27 skills : Emil Kowalski, Impeccable, Taste Skill, art génératif, GSAP, LottieFiles, textures artisanales), avec leur origine et leurs licences dans [`skills/README.md`](skills/README.md).
 Pour les utiliser dans un projet : copier les dossiers voulus dans `.claude/skills/` du projet, ou dans `~/.claude/skills/` pour tous les projets.
 
 ---
